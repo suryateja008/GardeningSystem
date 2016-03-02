@@ -1,0 +1,70 @@
+Sprinkler at Row 0 and COl 0 is Place and Started
+Grass at Row 0 and COl 1 is Place
+Grass at Row 0 and COl 2 is Place
+Carrot at Row 0 and COl 3 is Place
+Sprinkler at Row 0 and COl 4 is Place and Started
+Grass at Row 1 and COl 0 is Place
+Grass at Row 1 and COl 1 is Place
+Grass at Row 1 and COl 2 is Place
+Carrot at Row 1 and COl 3 is Place
+Carrot at Row 1 and COl 4 is Place
+Rose at Row 2 and COl 0 is Place 
+Grass at Row 2 and COl 1 is Place
+Heater at Row 2 and COl 2 is Place and Started
+Grass at Row 2 and COl 3 is Place
+Rose at Row 2 and COl 4 is Place 
+Grass at Row 3 and COl 0 is Place
+Grass at Row 3 and COl 1 is Place
+Current Temp is 26 --> Day 1 0h:0m:20s
+Grass at Row 3 and COl 2 is Place
+Grass at Row 3 and COl 3 is Place
+Grass at Row 3 and COl 4 is Place
+Sprinkler at Row 4 and COl 0 is Place and Started
+Grass at Row 4 and COl 1 is Place
+Grass at Row 4 and COl 2 is Place
+Grass at Row 4 and COl 3 is Place
+Sprinkler at Row 4 and COl 4 is Place and Started
+HeaterCrash Event 3d 4h 34m
+HeaterCrash Event 3d 4h 33m
+HeaterCrash Event 3d 4h 32m
+HeaterCrash Event 3d 4h 31m
+Current Temp is 25 --> Day 1 0h:4m:40s
+HeaterCrash Event 3d 4h 30m
+HeaterCrash Event 3d 4h 29m
+HeaterCrash Event 3d 4h 28m
+HeaterCrash Event 3d 4h 27m
+Current Temp is 25 --> Day 1 0h:8m:25s
+HeaterCrash Event 3d 4h 26m
+HeaterCrash Event 3d 4h 25m
+HeaterCrash Event 3d 4h 24m
+HeaterCrash Event 3d 4h 23m
+Current Temp is 24 --> Day 1 0h:12m:34s
+HeaterCrash Event 3d 4h 22m
+HeaterCrash Event 3d 4h 21m
+HeaterCrash Even is Stopped --> Day 1 0h:13m:35s
+Random even Stopped
+Sprinkler at Row = 0 and Col = 0 is Removed --> Day 1 0h:13m:28s
+Grass at Row = 0 and Col = 1 is Dead --> Day 1 0h:13m:59s
+Grass at Row = 0 and Col = 2 is Dead --> Day 1 0h:13m:43s
+Carrot at Row = 0 and Col = 3 is Dead --> Day 1 0h:13m:58s
+Sprinkler at Row = 0 and Col = 4 is Removed --> Day 1 0h:13m:10s
+Grass at Row = 1 and Col = 0 is Dead --> Day 1 0h:13m:57s
+Grass at Row = 1 and Col = 1 is Dead --> Day 1 0h:13m:20s
+Grass at Row = 1 and Col = 2 is Dead --> Day 1 0h:13m:55s
+Carrot at Row = 1 and Col = 3 is Dead --> Day 1 0h:13m:38s
+Carrot at Row = 1 and Col = 4 is Dead --> Day 1 0h:13m:13s
+Rose at Row = 2 and Col = 0 is Dead --> Day 1 0h:13m:55s
+Grass at Row = 2 and Col = 1 is Dead --> Day 1 0h:13m:4s
+Heater at Row = 2 and Col = 2 is Removed --> Day 1 0h:13m:47s
+Grass at Row = 2 and Col = 3 is Dead --> Day 1 0h:13m:37s
+Rose at Row = 2 and Col = 4 is Dead --> Day 1 0h:13m:21s
+Grass at Row = 3 and Col = 0 is Dead --> Day 1 0h:13m:33s
+Grass at Row = 3 and Col = 1 is Dead --> Day 1 0h:13m:35s
+Grass at Row = 3 and Col = 2 is Dead --> Day 1 0h:13m:23s
+Grass at Row = 3 and Col = 3 is Dead --> Day 1 0h:13m:47s
+Grass at Row = 3 and Col = 4 is Dead --> Day 1 0h:13m:18s
+Sprinkler at Row = 4 and Col = 0 is Removed --> Day 1 0h:13m:42s
+Grass at Row = 4 and Col = 1 is Dead --> Day 1 0h:13m:55s
+Grass at Row = 4 and Col = 2 is Dead --> Day 1 0h:13m:34s
+Grass at Row = 4 and Col = 3 is Dead --> Day 1 0h:13m:60s
+Sprinkler at Row = 4 and Col = 4 is Removed --> Day 1 0h:13m:46s

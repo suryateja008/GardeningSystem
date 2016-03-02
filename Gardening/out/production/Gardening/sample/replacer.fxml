@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.replacerController">
+    <children>
+        <Button layoutX="243.0" layoutY="114.0" mnemonicParsing="false" onAction="#changeSubmit" prefHeight="26.0" prefWidth="115.0" text="Replace Submit" />
+        <ComboBox fx:id="replaceOptions" layoutX="225.0" layoutY="73.0" prefWidth="150.0" promptText="Replace Options">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Sprinkler" />
+                    <String fx:value="Grass" />
+                    <String fx:value="Rose" />
+                    <String fx:value="Heater" />
+                    <String fx:value="Carrot" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Label layoutX="238.0" layoutY="50.0" prefHeight="16.0" prefWidth="150.0" text="Change the Entity" />
+    </children>
+</AnchorPane>

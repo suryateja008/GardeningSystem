@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SprinklerController">
+   <children>
+      <Button layoutX="449.0" layoutY="112.0" mnemonicParsing="false" onAction="#changeSubmit" prefHeight="26.0" prefWidth="115.0" text="Replace Submit" />
+      <ComboBox fx:id="replaceOptions" layoutX="432.0" layoutY="78.0" prefWidth="150.0" promptText="Replace Options">
+         <items>
+               <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Sprinkler" />
+                  <String fx:value="Grass" />
+                  <String fx:value="Rose" />
+                  <String fx:value="Heater" />
+                   <String fx:value="Carrot" />
+               </FXCollections>
+         </items>
+              </ComboBox>
+      <Label layoutX="433.0" layoutY="45.0" prefHeight="16.0" prefWidth="150.0" text="Change the Entity" />
+      <ComboBox fx:id="SprinklerHour" layoutX="14.0" layoutY="32.0" prefWidth="150.0">
+       <items>
+           <FXCollections fx:factory="observableArrayList">
+               <String fx:value="1" />
+               <String fx:value="2" />
+               <String fx:value="3" />
+               <String fx:value="4" />
+               <String fx:value="5" />
+               <String fx:value="6" />
+               <String fx:value="7" />
+               <String fx:value="8" />
+               <String fx:value="9" />
+               <String fx:value="10" />
+               <String fx:value="11" />
+               <String fx:value="12" />
+               <String fx:value="13" />
+               <String fx:value="14" />
+               <String fx:value="15" />
+               <String fx:value="16" />
+               <String fx:value="17" />
+               <String fx:value="18" />
+               <String fx:value="19" />
+               <String fx:value="20" />
+               <String fx:value="21" />
+               <String fx:value="22" />
+               <String fx:value="23" />
+           </FXCollections>
+       </items>
+      </ComboBox>
+
+       <ComboBox fx:id="SprinklerMin" layoutX="14.0" layoutY="65.0" prefWidth="150.0">
+           <items>
+           <FXCollections fx:factory="observableArrayList">
+               <String fx:value="1" />
+               <String fx:value="2" />
+               <String fx:value="3" />
+               <String fx:value="4" />
+               <String fx:value="5" />
+               <String fx:value="6" />
+               <String fx:value="7" />
+               <String fx:value="8" />
+               <String fx:value="9" />
+               <String fx:value="10" />
+               <String fx:value="11" />
+               <String fx:value="12" />
+               <String fx:value="13" />
+               <String fx:value="14" />
+               <String fx:value="15" />
+               <String fx:value="16" />
+               <String fx:value="17" />
+               <String fx:value="18" />
+               <String fx:value="19" />
+               <String fx:value="20" />
+               <String fx:value="21" />
+               <String fx:value="22" />
+               <String fx:value="23" />
+               <String fx:value="24" />
+               <String fx:value="25" />
+               <String fx:value="26" />
+               <String fx:value="27" />
+               <String fx:value="28" />
+               <String fx:value="29" />
+               <String fx:value="30" />
+               <String fx:value="31" />
+               <String fx:value="32" />
+               <String fx:value="33" />
+               <String fx:value="34" />
+               <String fx:value="35" />
+               <String fx:value="36" />
+               <String fx:value="37" />
+               <String fx:value="38" />
+               <String fx:value="39" />
+               <String fx:value="40" />
+               <String fx:value="41" />
+               <String fx:value="42" />
+               <String fx:value="43" />
+               <String fx:value="44" />
+               <String fx:value="45" />
+               <String fx:value="46" />
+               <String fx:value="47" />
+               <String fx:value="48" />
+               <String fx:value="49" />
+               <String fx:value="50" />
+               <String fx:value="51" />
+               <String fx:value="52" />
+               <String fx:value="53" />
+               <String fx:value="54" />
+               <String fx:value="55" />
+               <String fx:value="56" />
+               <String fx:value="57" />
+               <String fx:value="58" />
+               <String fx:value="59" />
+           </FXCollections>
+           </items>
+       </ComboBox>
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="16.0" prefWidth="203.0" text="Change Sprinkler On Timing" />
+      <Label layoutX="172.0" layoutY="37.0" text="Hours" />
+      <Label layoutX="174.0" layoutY="70.0" text="Minutes" />
+      <Button onAction="#setTime" layoutX="17.0" layoutY="112.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Set Time" />
+   </children>
+</AnchorPane>

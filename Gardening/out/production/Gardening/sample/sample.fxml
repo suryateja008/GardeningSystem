@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane dividerPositions="0.6421404682274248" layoutX="100.0" layoutY="57.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.6054216867469879" prefHeight="380.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="stopButton" layoutX="521.0" layoutY="332.0" mnemonicParsing="false" onAction="#stopButtonHandler" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: red;" text="Stop" textFill="WHITE" />
+                              <Label fx:id="currentTime" alignment="CENTER_RIGHT" layoutX="348.0" layoutY="1.0" prefHeight="26.0" prefWidth="237.0" text="Time and Day">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font></Label>
+                              <Label fx:id="currTemperature" alignment="CENTER_RIGHT" layoutX="429.0" layoutY="45.0" prefHeight="16.0" prefWidth="156.0" text="Temp">
+                                 <font>
+                                    <Font name="Arial" size="14.0" />
+                                 </font></Label>
+                              <Button fx:id="sprinkerSwitchBtn" layoutX="469.0" layoutY="82.0" mnemonicParsing="false" onAction="#sprinkerSwitchBtn" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: skyblue;" text="Sprinkler Switch" textFill="WHITE" />
+                              <Button layoutX="469.0" layoutY="117.0" mnemonicParsing="false" onAction="#heaterSwitch" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: #FF4D4D;" text="Heater Switch" textFill="WHITE" />
+                              <Button layoutX="435.0" layoutY="171.0" mnemonicParsing="false" onAction="#incMaxBtn" prefHeight="26.0" prefWidth="72.0" text="Inc Max" textFill="#d71212" />
+                              <Button layoutX="515.0" layoutY="209.0" mnemonicParsing="false" onAction="#decMinBtn" prefHeight="26.0" prefWidth="72.0" text="Dec Min" textFill="#1dd7da" />
+                              <Button layoutX="516.0" layoutY="171.0" mnemonicParsing="false" onAction="#decMaxBtn" text="Dec Max" />
+                              <Button layoutX="436.0" layoutY="209.0" mnemonicParsing="false" onAction="#incMinBtn" prefHeight="26.0" prefWidth="71.0" text="Inc Min" />
+                              <Label layoutX="453.0" layoutY="155.0" prefHeight="16.0" prefWidth="128.0" text="Temperature Settings" />
+                              <Button layoutX="14.0" layoutY="265.0" mnemonicParsing="false" onAction="#mowLawn" prefHeight="26.0" prefWidth="102.0" text="Mow Lawn" />
+
+                               <!--start of grid buttons-->
+                              <Button fx:id="gridbtn00" layoutX="21.0" layoutY="30.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="72.0" text="teja" />
+                              <Button fx:id="gridbtn01" layoutX="93.0" layoutY="30.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn02" layoutX="172.0" layoutY="30.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn03" layoutX="251.0" layoutY="30.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn04" layoutX="330.0" layoutY="30.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn10" layoutX="21.0" layoutY="56.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="72.0" text="Button" />
+                              <Button fx:id="gridbtn11" layoutX="93.0" layoutY="56.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn12" layoutX="172.0" layoutY="56.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn13" layoutX="251.0" layoutY="56.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn14" layoutX="330.0" layoutY="56.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn20" layoutX="21.0" layoutY="82.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="72.0" text="Button" />
+                              <Button fx:id="gridbtn21" layoutX="93.0" layoutY="82.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn22" layoutX="172.0" layoutY="82.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn23" layoutX="251.0" layoutY="82.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn24" layoutX="330.0" layoutY="82.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn30" layoutX="21.0" layoutY="108.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="72.0" text="Button" />
+                              <Button fx:id="gridbtn31" layoutX="93.0" layoutY="108.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn32" layoutX="172.0" layoutY="108.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn33" layoutX="251.0" layoutY="108.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn34" layoutX="330.0" layoutY="108.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn40" layoutX="22.0" layoutY="134.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="71.0" text="Button" />
+                              <Button fx:id="gridbtn41" layoutX="93.0" layoutY="134.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn42" layoutX="172.0" layoutY="134.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn43" layoutX="251.0" layoutY="134.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                              <Button fx:id="gridbtn44" layoutX="330.0" layoutY="134.0" mnemonicParsing="false" onAction="#popupBtn" prefHeight="26.0" prefWidth="79.0" text="Button" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <Label layoutX="7.0" layoutY="14.0" text="NexT Event Count Down" />
+                              <Label fx:id="countDownLabel" alignment="CENTER" layoutX="162.0" layoutY="14.0" prefHeight="16.0" prefWidth="223.0" text="Label" />
+                              <Label fx:id="sprinklerLbl" layoutX="14.0" layoutY="60.0" prefHeight="16.0" prefWidth="284.0" text="Label" />
+                              <Label fx:id="heaterSwitchLbl" layoutX="14.0" layoutY="90.0" prefHeight="16.0" prefWidth="284.0" text="Label" />
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="150.0" prefWidth="998.0">
+               <children>
+                  <ScrollPane layoutX="136.0" prefHeight="210.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="989.0">
+                           <children>
+                              <TextArea fx:id="LoggerSection" prefHeight="200.0" prefWidth="989.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
